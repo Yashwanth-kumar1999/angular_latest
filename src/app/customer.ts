@@ -3,6 +3,16 @@ export class Customer {
   public name!:string
   public email!:string
   public password!:string
-  public dateOfBirth!:Date
+  public contactNo!:number
+  public address!:string
+  public pinCode!:number
+  public accountNo!:number
+   public ifscCode!:string
+   public area!:string
+   public city!:string
+   public state!:string
+   public aadhar!:number
+   public panNo!:number
+   public license!:number
 
 }

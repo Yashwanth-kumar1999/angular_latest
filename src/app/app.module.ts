@@ -8,13 +8,23 @@ import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CustomerLoginComponent } from './customer-login/customer-login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BidderRegisterComponent } from './bidder-register/bidder-register.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerRegisterComponent,
     CustomerLoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    BidderRegisterComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactUsComponent,
+    BidderWelcomeComponent
   ],
   imports: [
     BrowserModule,

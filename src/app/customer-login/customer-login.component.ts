@@ -17,12 +17,12 @@ export class CustomerLoginComponent implements OnInit {
 
   userLogin() {
     this.loginService.loginUser(this.login).subscribe((res) => {
-      // alert(JSON.stringify(res))
-      if (res.status == true) {
-        sessionStorage.setItem('customerId', String(res.customerId));
-        sessionStorage.setItem('customerName', res.customerName);
-        this.router.navigate(['dashboard']);
-      }
+      alert(JSON.stringify(res))
+      // if (res.status == true) {
+      //   sessionStorage.setItem('customerId', String(res.customerId));
+      //   sessionStorage.setItem('customerName', res.customerName);
+      //   this.router.navigate(['dashboard']);
+      // }
     });
   }
 }

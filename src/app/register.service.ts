@@ -8,13 +8,13 @@ import { RegisterStatus } from './register-status';
   providedIn: 'root'
 })
 export class RegisterService {
-  private url="http://localhost:8082/register.api"
+  private url="http://localhost:8083/register.api"
   constructor( private http:HttpClient) { }
 
 
   register(customer:Customer):Observable<RegisterStatus>{
 
-    console.log(customer)
+    console.log(JSON.stringify(customer))
 
     return this.http.post<RegisterStatus>(`${this.url}`,customer)
 
