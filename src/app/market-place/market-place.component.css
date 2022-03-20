@@ -22,6 +22,12 @@
   width: 80%;
   margin: auto;
 }
+.topna {
+  overflow: hidden;
+  background-color: rgb(237, 241, 240);
+  width: 80%;
+  margin: auto;
+}
 
 .topnav ul {
   list-style-type: none;
@@ -52,6 +58,12 @@
   padding: 20px;
   margin-top: 20px;
 }
+.car {
+  background-color: white;
+  padding-right: 750px;
+  margin-top: 20px;
+}
+
 
 
 .row:after {
@@ -127,12 +139,6 @@ img {
   max-width: 185px;
   height: auto;
 }
-
-
-div.display{
-  display:none
-}
-
 
 
 

@@ -7,6 +7,7 @@ import { CustomerLoginComponent } from './customer-login/customer-login.componen
 import { CustomerRegisterComponent } from './customer-register/customer-register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
+import { FarmerSellrequestComponent } from './farmer-sellrequest/farmer-sellrequest.component';
 
 const routes: Routes = [
   { path: 'register/farmer', component: CustomerRegisterComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'dashboard', component:DashboardComponent},
   {path:'',component:HomeComponent},
   {path:'about' ,component:AboutComponent},
-  {path:'contact',component:ContactUsComponent}
+  {path:'contact',component:ContactUsComponent},
+  {component: FarmerSellrequestComponent, path:'sellrequest'}
 
 ]
 @NgModule({

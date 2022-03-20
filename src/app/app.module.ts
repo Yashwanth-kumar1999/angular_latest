@@ -13,6 +13,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.component';
+import { FarmerWelcomeComponent } from './farmer-welcome/farmer-welcome.component';
+import { FarmerSellrequestComponent } from './farmer-sellrequest/farmer-sellrequest.component';
+import { FarmerSoldhistoryComponent } from './farmer-soldhistory/farmer-soldhistory.component';
+import { MarketPlaceComponent } from './market-place/market-place.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.componen
     HomeComponent,
     AboutComponent,
     ContactUsComponent,
-    BidderWelcomeComponent
+    BidderWelcomeComponent,
+    FarmerWelcomeComponent,
+    FarmerSellrequestComponent,
+    FarmerSoldhistoryComponent,
+    MarketPlaceComponent
   ],
   imports: [
     BrowserModule,

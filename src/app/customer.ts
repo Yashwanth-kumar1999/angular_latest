@@ -14,5 +14,6 @@ export class Customer {
    public aadhar!:number
    public panNo!:number
    public license!:number
+   public type!: string
 
 }
